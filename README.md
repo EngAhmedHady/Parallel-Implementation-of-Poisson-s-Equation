@@ -5,5 +5,7 @@ Files description
 (The Results) Paralleltime.xlsx
 (Serial Code Files)
     (Fortran) FortranSerial.f95 + (Plot format) Grid.gnu
-    (C++) PoissonSolver.cpp + (Plot format) CGrid.gnu
-(Parallel Code) FortranParallelFinal.f95 + (Plot format) GridParallel.gnu
+    (C++) PoissonSolver.cpp + gnuplot.h + (Plot format) CGrid.gnu
+(Parallel Code) 
+    (Fortran) FortranParallelFinal.f95 + (Plot format) GridParallel.gnu
+    (C++) PoissonParallelSolver.cpp + mpi.h + gnuplot.h + (Plot format) ParallelCGrid.gnu
