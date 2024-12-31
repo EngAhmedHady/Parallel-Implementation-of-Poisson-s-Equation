@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/EngAhmedHady/Parallel-Implementation-of-Poisson-s-Equation/blob/master/LICENSE)
+
 # Numerical Solution of the Poisson Equation using MPI
 
 This project presents a numerical solution of the Poisson equation implemented in parallel using the Message Passing Interface (MPI). The repository contains serial and parallel implementations in both Fortran and C++.
@@ -47,7 +49,10 @@ where $u$ is the unknown function to solve, and $f(x, y)$ is a source term. This
 ```
 
 ## Problem Description
-![Five point stencil](https://github.com/user-attachments/assets/c1a4f4a3-c527-4aa8-8419-af8461bdbb33)
+<p align="center">
+  <img width="750" alt="Figure 2024-11-27 140726" src="https://github.com/user-attachments/assets/c1a4f4a3-c527-4aa8-8419-af8461bdbb33">
+</p>
+<!-- ![Five point stencil]() -->
 
 The Poisson equation is solved on a square domain $[0, l] \times [0, l]$ with boundary conditions:
 
@@ -129,6 +134,6 @@ Run the respective Gnuplot scripts (e.g., `Grid.gnu`, `ParallelCGrid.gnu`) to vi
 
 ---
 
-Developed by Ahmed H. Hanfy, Karim Ali, Mustapha Jatta, Isyna Muna, and Qazi Hamid as part of a project at the University of L'Aquila, supervised by Dr. Adriano FESTA
+Developed by **Ahmed H. Hanfy**, Karim Ali, Mustapha Jatta, Isyna Muna, and Qazi Hamid as part of a project at the University of L'Aquila, supervised by Dr. Adriano FESTA
 Contributions include serial and parallel implementations in Fortran and C++.
 
